@@ -2,7 +2,7 @@
 
 void mergeSort(int list[], int left, int right) {
     if (left < right) {
-        int centre = left + (right - left) / 2;
+        int centre = left + (right-left) / 2;
 
         mergeSort(list, left, centre);
         mergeSort(list, centre + 1, right);
